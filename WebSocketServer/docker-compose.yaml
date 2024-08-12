@@ -1,0 +1,8 @@
+services:
+  server:
+    build:
+      context: .
+    environment:
+      Node_ENV: production
+    ports:
+      - "1000:3532"
